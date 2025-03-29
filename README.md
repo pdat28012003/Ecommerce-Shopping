@@ -1,6 +1,6 @@
 # Watch E-Commerce Website
 
-Welcome to our Watch E-Commerce platform built using the MERN (MongoDB, Express.js, React.js, Node.js) stack!
+Welcome to our E-Commerce platform built using the MERN (MongoDB, Express.js, React.js, Node.js) stack!
 
 ## Features
 
@@ -23,14 +23,6 @@ Welcome to our Watch E-Commerce platform built using the MERN (MongoDB, Express.
 - **Payment Gateway Integration:**
   - Safely complete transactions using our integrated payment gateway.
 
-## Screenshots
-
-- ![1737484803443](image/README/1737484803443.png)
-- ![1737655558153](image/README/1737655558153.png)
-- ![1737484889724](image/README/1737484889724.png)
-- ![1737484924716](image/README/1737484924716.png)
-- ![1737484961894](image/README/1737484961894.png)
-- ![image](https://github.com/AshutoshRajGupta/watch-ecommerce/assets/89141709/da996c37-6cae-4444-978f-2ba948743a6b)
 
 ## Getting Started
 
@@ -44,13 +36,13 @@ Welcome to our Watch E-Commerce platform built using the MERN (MongoDB, Express.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/watch-ecommerce.git
+   git clone https://github.com/pdat28012003/Ecommerce-Shopping.git
    ```
 
 2. Change to the project directory:
 
    ```bash
-   cd watch-ecommerce
+   cd Ecommerce-Shopping
    ```
 
 3. Install dependencies for the server:
@@ -80,16 +72,3 @@ Welcome to our Watch E-Commerce platform built using the MERN (MongoDB, Express.
    npm start
    ```
 
-3. Open your browser and visit [here](https://elated-fawn-veil.cyclic.app/) to access the application.
-
-## Contributing
-
-We welcome contributions! Feel free to open issues and submit pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to add more details, instructions, or customization to suit your project's specifics.
