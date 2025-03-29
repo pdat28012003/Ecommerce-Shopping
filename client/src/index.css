@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* //navbar css */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px rgb(79, 78, 78);
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  /* border-bottom: 3px solid rgb(158, 75, 190) !important; */
+  border-bottom: solid rgb(82, 81, 81) !important;
+}
+
+/* .sticky-header {
+  width: 100%;
+  position: fixed !important;
+  top: 0;
+  margin-bottom: 10px;
+  z-index: 100; 
+  background-color: #fefbfb; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  
+} */
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 3px solid rgb(11, 98, 220);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search-form input {
+  border: none;
+  border-radius: 0;
+}
+.search-form button {
+  background-color: #000000;
+  border-radius: 0;
+  color: white;
+}
+
+/* =============================
+==========footer============= */
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #f9e7ab;
+  border-bottom: 1px solid #ffefba;
+}
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  /* min-height: 80vh; */
+  min-height: 80vh;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 3px solid rgb(144, 35, 161);
+  /* border: 1px solid black; */
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+/* ========================================= */
+/* =========contact us ========= */
+.policy p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+}
+
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: crimson;
+  font-weight: 700;
+  font-size: large;
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: rgb(150, 50, 50) !important;
+}
+
+/* .cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+} */
+
+.cat-container {
+  display: grid;
+}
+.cat-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create a 4-column grid layout */
+  gap: 1rem; /* Add some gap between the buttons */
+}
+
+.cat-btn {
+  padding: 50px;
+  font-size: 24px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  /* width: 100%;  */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}

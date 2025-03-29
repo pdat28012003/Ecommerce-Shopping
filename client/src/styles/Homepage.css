@@ -1,0 +1,275 @@
+/* General Reset and Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 243, 243);
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    0deg,
+    #ffdee9 0%,
+    #b5fffc 100%
+  ); /* Background for both sections */
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 22rem; /* Increased card width */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden;
+  margin: 15px;
+}
+
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.home-page button {
+  border-radius: 10px; /* Rounded corners */
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-page button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Banner Image Section */
+.carousel-item {
+  width: 100%;
+  height: 500px; /* Adjusted height to make the banner smaller */
+  object-fit: cover;
+  transition: height 0.2s ease;
+}
+
+/* Filters Section */
+.filters {
+  background: linear-gradient(
+    135deg,
+    #e3f2fd,
+    #bbdefb
+  ); /* Same gradient background */
+
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  width: 300px; /* Fixed width for filter */
+  margin: 15px;
+}
+
+.filters h4 {
+  color: #343a40;
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.filter-checkbox,
+.price-radio {
+  transition: all 0.3s ease-in-out;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filter-checkbox:hover,
+.price-radio:hover {
+  background: rgba(0, 123, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.reset-btn {
+  background: #dc3545;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 15px rgba(255, 0, 0, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+.reset-btn:hover {
+  background: #c82333;
+  transform: scale(1.05);
+}
+
+/* Product Cards Section */
+.product-section {
+  padding: 30px 20px;
+  background: transparent; /* No separate background */
+  border-radius: 20px;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.stylish-card {
+  background: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  transition: all 0.3s ease-in-out;
+  width: 300px; /* Increased card width */
+  margin: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.stylish-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.stylish-card:hover .product-img {
+  transform: scale(1.1);
+}
+
+.product-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #343a40;
+  margin-top: 15px;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #28a745;
+  margin-top: 5px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.product-description {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 15px;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 15px;
+}
+
+.action-btn {
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  width: 48%;
+  transition: all 0.3s ease;
+}
+
+.action-btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-info {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  box-shadow: 0px 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.btn-info:hover {
+  background-color: #0056b3;
+  box-shadow: 0px 8px 15px rgba(0, 123, 255, 0.4);
+}
+
+.btn-dark {
+  background-color: #343a40;
+  border: none;
+  color: white;
+  box-shadow: 0px 4px 12px rgba(52, 58, 64, 0.3);
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+  box-shadow: 0px 8px 15px rgba(52, 58, 64, 0.5);
+}
+
+.loadmore-container {
+  text-align: center;
+  margin-top: 20px; /* Optional */
+}
+
+.loadmore {
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 30px;
+  background: #28a745;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.loadmore:hover {
+  background: #218838;
+  transform: scale(1.05);
+}
+
+.stylish-btn {
+  padding: 12px 24px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.stylish-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #003d80);
+  transform: scale(1.05);
+}
+
+.stylish-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
